@@ -50,11 +50,17 @@ html, body {
   font-size: 18px;
   cursor: pointer;
 }
+.quote {
+  font-style: italic;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #fff;
+}
 #sec1 { background-color: #ffccf9; font-size: 36px; color:#4b2e83; }
-#sec2 { background-color: #ffb3c6; color: #fff; }
-#sec3 { background-color: #ffd6a5; color: #fff; }
-#sec4 { background-color: #a0e7e5; color: #fff; }
-#sec5 { background-color: #b4f8c8; color: #fff; }
+#sec2 { background-color: #ffb3c6; }
+#sec3 { background-color: #ffd6a5; }
+#sec4 { background-color: #a0e7e5; }
+#sec5 { background-color: #b4f8c8; }
 #sec6 { background-color: #fef9c3; color: #333; }
 #sec7 { background-color: #ffedbc; color: #4b2e83; font-size: 48px; display:flex; justify-content:center; align-items:center; }
 #happyText {
@@ -81,30 +87,40 @@ html, body {
 <div id="sec1" class="section active">
   <h1>✨ Happy Birthday, Laraib! ✨</h1>
   <p>آج کا دن آپ کے لیے روشنیوں سے بھرا ہوا ہے، Laraib—</p>
+  <div class="quote">"Aaj ka din waqai bohot khaas hai."
+<br>"Aaj ka din waqai bohot khaas hai, Laraib."</div>
   <button class="btn-next" onclick="nextSection()">Next</button>
 </div>
 
 <div id="sec2" class="section hidden">
   <h2>Aap Jaisi Khoobsurat Insaan</h2>
   <p>آپ اُن چند لوگوں میں سے ہیں جو چہرے سے زیادہ دل کے خوبصورت ہوتے ہیں۔</p>
+  <div class="quote">"Aap jaisi achi, pyari, seedhi aur sachi insaan ko hamesha duniya ki sab se behtareen cheezein milni chahiye."
+<br>"Aap jaisi achi, pyari, seedhi, aur sachi insaan ko hamesha duniya ki sab se behtareen cheezein milni chahiye."</div>
   <button class="btn-next" onclick="nextSection()">Next</button>
 </div>
 
 <div id="sec3" class="section hidden">
   <h2>Yaadein Jo Reh Gayi</h2>
   <p>آپ کے اخلاق، آپ کی سچائی، آپ کی نرمی اور آپ کی باریک حسِ جمال…</p>
+  <div class="quote">"Mujhe abhi tak woh din yaad hai jab hum shed se wapis aa rahe thay aur barish ho rahi thi."
+<br>"Mujhe abhi tak woh din yaad hai jab hum shed se wapis aa rahe thay aur barish ho rahi thi… aur mere mana karne ke bawajood ap ne pani me jump kiya."</div>
   <button class="btn-next" onclick="nextSection()">Next</button>
 </div>
 
 <div id="sec4" class="section hidden">
   <h2>Aap Ki Aankhein</h2>
   <p>آپ کی آنکھیں—وہ گہرا سیاہ رنگ جو عام نہیں، ایک ایسے راز کی طرح ہے جو صرف خوبصورتی نہیں… گہرائی بھی رکھتا ہے۔</p>
+  <div class="quote">"Aap ki aankhein woh gehra kaala rang jo na sirf khoobsurat hai balkay bohot expressive bhi."
+<br>"Aap ki aankhon me koi ajeeb si khamosh chamak hai jo dekhne wale ko rok leti hai."</div>
   <button class="btn-next" onclick="nextSection()">Next</button>
 </div>
 
 <div id="sec5" class="section hidden">
   <h2>Duaen & Motivation</h2>
   <p>میں دعا کرتا ہوں کہ اللہ تعالیٰ آپ کی زندگی کو آسانیوں سے بھر دے۔</p>
+  <div class="quote">"Main dua karta hoon ke Allah aap ke tamam goals aasaan kar de."
+<br>"Aap jahan bhi jaayein, izzat, mohabbat aur achi niyat wale log milain."</div>
   <button class="btn-next" onclick="nextSection()">Next</button>
 </div>
 
