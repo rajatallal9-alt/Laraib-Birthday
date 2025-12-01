@@ -130,9 +130,8 @@ html, body {
 
 <div id="sec6" class="section hidden">
   <h2>End Note</h2>
-  <p> اللہ آپ کو خوشیوں، مسکراہٹوں، کامیابیوں اور محبتوں سے نوازے۔
-
-    Happy Birthday once again, Laraib! Allah kare yeh saal aap ki zindagi ka sab se behtareen saal ho. Aap hamesha muskurayein, chamkain aur khush rahein.</p>
+  <p> اللہ آپ کو خوشیوں، مسکراہٹوں، کامیابیوں اور محبتوں سے نوازے۔ </p>
+  <p>Happy Birthday once again, Laraib! Allah kare yeh saal aap ki zindagi ka sab se behtareen saal ho. Aap hamesha muskurayein, chamkain aur khush rahein.</p>
   <audio id="bgMusic" src="ma_agar_kahon_tum_sa_haseen.mp3" loop autoplay></audio>
 </div>
 
